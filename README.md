@@ -1,2 +1,2 @@
 # DSDL2019
-NTU CSIE Digital Systems Design and Laboratory 2019
+NTU CSIE 107-2 Digital Systems Design and Laboratory
