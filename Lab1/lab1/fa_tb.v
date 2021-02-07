@@ -5,7 +5,7 @@ module fa_tb();
 	wire s, c;
 	reg a, b, ci;
 	FA fa0(c, s, a, b, ci);
-	
+
 	integer i;
 	initial begin
 		$display("time | abci cs");

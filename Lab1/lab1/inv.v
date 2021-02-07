@@ -11,7 +11,7 @@ module inv_tb;
 	reg in;
 	wire out;
 	inv circuit(in, out);
-	
+
 	integer k = 0;
 	wire x;
 	reg y, z;
@@ -20,19 +20,19 @@ module inv_tb;
 		// $display();
 		// $dumpfile("test.vcd");
 		// $dumpvars(0, inv_tb);
-		
+
 		$display();
 		$display({2'b10, 2'b11} == 4'o13, " <- {2'b10, 2'b11} == 4'o13");
-		
+
 		$display();
 		$write("This");
 		$display(" also", " works.");
-		
+
 		$display();
 		$display("t=%2d, Test begin", $time);
 		$display("t=%2d, in=%d, out=%d <- initial status, ",
 			$time, in, out);
-		
+
 		$display();
 		$display(" t   in out k x y z");
 		$display("===================");
